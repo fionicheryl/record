@@ -1,0 +1,15 @@
+spring:
+  profiles:
+  # 数据源基础配置
+  datasource:
+    db1:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/db1?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据源基础配置
+    db2:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/db2?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
